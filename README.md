@@ -25,7 +25,8 @@ The component should work exactly like below:
 ```
 
 * The component should render a view where one subview is displayed, and provide buttons to switch from a view to another.
-* The component should render defaultView at boot.
+* The component should render defaultView at mount.
+* The component should handle the switching of view internally.
 * onSelect should be triggered when the user changes the selected view.
 
 ## Rules
@@ -47,7 +48,7 @@ The component should work exactly like below:
 ## Tech stack
 
 * **React** (obviously), **npm** or **yarn**, **ES6**, **webpack**, **babel** (Feel free to use **react-start-app**)
-* If you test your component, use **jest**
+* If you test your component, use **mocha** and **chai**
 * If you lint your code, use the airbnb standard (https://github.com/airbnb/javascript)
 
 _Even if you do not know **ES6**, this should not scare you, it is easy to pick up, considering previous JavaScript experience!_
@@ -56,11 +57,11 @@ _Even if you do not know **ES6**, this should not scare you, it is easy to pick 
 
 * Good architecture
 * Good code quality (consider **eslint**)
-* Tested component (Unit tests)
+* Tested components (Unit tests)
 * Good documentation (imagine you are going to open source this component)
 * Usage and emphasis on well established UI design patterns
 * Any other feature you find interesting to add !
 
 ## Deliverable
 
-Send your git repo (link or ZIP file) to olivier@frizby.co.
+Send your git repo URL to olivier@frizby.co.
